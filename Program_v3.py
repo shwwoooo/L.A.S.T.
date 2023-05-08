@@ -115,7 +115,7 @@ def sentOutPage():
 	button2.grid_forget()
 	listEmails = []
 	listEmails.append(STUDENT[2])
-	listEmails.append("***REMOVED***")
+	listEmails.append("#admission@swis.cn")
 	time = datetime.datetime.now().strftime('%H:%M:%S')
 	sendEmail("LATE STUDENT - " + STUDENT[0],\
 	"Hello,\n\n" + STUDENT[0] + " from " + STUDENT[1] + " is late for school on " + date\

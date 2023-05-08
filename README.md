@@ -1,4 +1,4 @@
-# L.A.S.T
+# L.A.S.T.
 Late Arrival Student Ticket is a late student registeration system particularly for my school, though it can also be used for other middle schools that provide student ID cards for their students. It is capable of identifying a student ID card and sending emails to notify teachers and staffs.
 
 ### Functional Testing

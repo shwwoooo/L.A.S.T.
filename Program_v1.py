@@ -128,7 +128,7 @@ def sentOutPage():
 		listEmails.append(find_class_from_txtMYP(studentGrade,DAYNUM))
 	else:
 		listEmails.append(find_class_from_txtDP(studentName,DAYNUM))
-	listEmails.append("***REMOVED***")
+	listEmails.append("#admission@swis.cn")
 	print(studentName + ' ' + str(studentGrade) + ' ' + str(DAYNUM))
 	print(listEmails)
 	time = datetime.datetime.now().strftime('%H:%M:%S')
